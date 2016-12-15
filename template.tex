@@ -21,144 +21,130 @@
 
 \documentclass[letterpaper]{twentysecondcv} % a4paper for A4
 
+% Command for printing skill progress bars
+\newcommand\skills{ 
+~
+	\smartdiagram[bubble diagram]{
+        \textbf{Full Stack}\\\textbf{Dev},
+        \textbf{Relational/}\\\textbf{Document}\\\textbf{Databases},
+        \textbf{~~~~OOP~~~~~},
+        \textbf{Mobile}\\\textbf{Dev},
+        \textbf{Machine}\\\textbf{Learning},
+        \textbf{Test}\\\textbf{~~Automation~~},
+        \textbf{Statistical}\\\textbf{Analysis}
+    }
+}
+
+\interests{{Dev Ops/4.5},{Test Automation/5},{Data Science/6},{Software Engineering/6}}
+
 %----------------------------------------------------------------------------------------
 %	 PERSONAL INFORMATION
 %----------------------------------------------------------------------------------------
 
 % If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
 
-\profilepic{alice.jpeg} % Profile picture
 
-\cvname{Alice} % Your name
-\cvjobtitle{Adventurer} % Job title/career
 
-\cvdate{26 November 1865} % Date of birth
-\cvaddress{United Kingdom} % Short address/location, use \newline if more than 1 line is required
-\cvnumberphone{+39 0325658974} % Phone number
-\cvsite{http://en.wikipedia.org} % Personal website
-\cvmail{alice@wonderland.com} % Email address
+\cvname{Harsh Gadgil} % Your name
+\cvjobtitle{ Data Scientist, \\ Full Stack Developer} % Job title/career
+
+\cvlinkedin{https://linkedin.com/in/hsgadgil}
+\cvnumberphone{+1 205 282 9201} % Phone number
+\cvsite{http://www.hgadgil.com/} % Personal website
+\cvmail{harsh.gadgil@gmail.com} % Email address
 
 %----------------------------------------------------------------------------------------
 
 \begin{document}
 
-%----------------------------------------------------------------------------------------
-%	 ABOUT ME
-%----------------------------------------------------------------------------------------
-
-\aboutme{Alice is a sensible prepubescent girl from a wealthy English family who finds herself in a strange world ruled by imagination and fantasy. Alice feels comfortable with her identity and has a strong sense that her environment is comprised of clear, logical, and consistent rules and features. Alice's familiarity with the world has led one critic to describe her as a "disembodied intellect". Alice displays great curiosity and attempts to fit her diverse experiences into a clear understanding of the world.
-}
-
-%----------------------------------------------------------------------------------------
-%	 SKILLS
-%----------------------------------------------------------------------------------------
-
-% Skill bar section, each skill must have a value between 0 an 6 (float)
-\skills{{pursuer of rabbits/5.8},{good manners/4},{outgoing/4.3},{polite/4},{Java/0.01}}
-
-%------------------------------------------------
-
-% Skill text section, each skill must have a value between 0 an 6
-\skillstext{{lovely/4},{narcissistic/3}}
-
-%----------------------------------------------------------------------------------------
-
 \makeprofile % Print the sidebar
-
-%----------------------------------------------------------------------------------------
-%	 INTERESTS
-%----------------------------------------------------------------------------------------
-
-\section{interests}
-
-The heroine and the dreamer of Wonderland; Alice is the principal character.
 
 %----------------------------------------------------------------------------------------
 %	 EDUCATION
 %----------------------------------------------------------------------------------------
-
-\section{education}
+\section{Education}
 
 \begin{twenty} % Environment for a list with descriptions
-	\twentyitem{since 1865}{Ph.D. {\normalfont candidate in Computer Science}}{Wonderland}{\emph{A Quantified Theory of Social Cohesion.}}
-	\twentyitem{1863-1865}{M.Sc. magna cum laude}{Wonderland}{Majoring in Computer Science}
-	\twentyitem{1861-1863}{B.Sc. magna cum laude}{Wonderland}{Majoring in Computer Science}
-	\twentyitem{1856-1861}{High school}{Wonderland}{Specializing in mathematics and physics.}
-	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+	\twentyitem
+    	{Expected \\ Dec 2016}
+        {MSc., Computer Science}
+        {\href{http://www.uoguelph.ca/}{University of Guelph}}
+        {Guelph, Ontario, Canada}
+        {Current GPA: 3.7/4, 83\%}
+	\twentyitem
+    	{2009 - 2013}
+        {BEng., Computer Engineering}
+        {\href{http://www.unipune.ac.in/}{University of Pune}}
+        {Pune, Maharashtra, India}
+        {GPA: 4.0, First Class with Distinction}
+	%\twentyitem{<dates>}{<title>}{<organization>}{<location>}{<description>}
 \end{twenty}
 
-%----------------------------------------------------------------------------------------
-%	 PUBLICATIONS
-%----------------------------------------------------------------------------------------
 
-%%%%%%%%%TWENTY LIST SHORTITEMS%%%%%%%%%%%%%%
-%%% Two arguments: date; title/description %%%%%%%%%%
-\section{publications}
-
-\begin{twentyshort} % Environment for a short list with no descriptions
-	\twentyitemshort{1865}{Chapter One, Down the Rabbit Hole.}
-	\twentyitemshort{1865}{Chapter Two, The Pool of Tears.}
-	\twentyitemshort{1865}{Chapter Three,  The Caucus Race and a Long Tale.}
-	\twentyitemshort{1865}{Chapter Four,  The Rabbit Sends a Little Bill.}
-	\twentyitemshort{1865}{Chapter Five,  Advice from a Caterpillar.}
-	%\twentyitemshort{<dates>}{<title/description>}
-\end{twentyshort}
-
-%----------------------------------------------------------------------------------------
-%	 AWARDS
-%----------------------------------------------------------------------------------------
-
-\section{awards}
-
-\begin{twentyshort} % Environment for a short list with no descriptions
-	\twentyitemshort{1987}{All-Time Best Fantasy Novel.}
-	\twentyitemshort{1998}{All-Time Best Fantasy Novel before 1990.}
-	%\twentyitemshort{<dates>}{<title/description>}
-\end{twentyshort}
+\section{Research}
+\begin{twenty}
+	\twentyitem
+    	{2015 - 2016}
+        {Graduate Research Assistant}
+        {\href{http://www.uoguelph.ca/}{University of Guelph}}
+        {}
+        {
+        {\begin{itemize}
+        \item Performed classification using Support Vector Machine and multivariate regression analyses using Logistic Regression
+        \item Proposed a novel method to reliably integrate large, noisy datasets. Evaluated the method on datasets containing six million records
+        \item A paper describing the method and preliminary results is accepted for publication in the proceedings of the IEEE International Conference of Data Mining 2016
+    \end{itemize}}
+        }
+\end{twenty}
 
 %----------------------------------------------------------------------------------------
 %	 EXPERIENCE
 %----------------------------------------------------------------------------------------
 
-\section{experience}
+\section{Experience}
 
 \begin{twenty} % Environment for a list with descriptions
-	\twentyitem{1900}{Alice in Wonderland-The Circra (1900's) Silent Film.}{Film}{The first Alice on film was over a hundred years ago.}
-	\twentyitem{1933}{Alice in Wonderland 1933 version.}{Film}{This film stars Ethel griffies and Charlotte Henry. It was a box office flop when it was released.}
-	\twentyitem{1951}{Disney Film.}{Film}{Walt Disney brings Lewis Carroll's fantasy story to life in this well done animated classic. Even though many elements from the book were dropped, such as the duchess with the baby pig and mock turtle, this version is without a doubt the most famous Alice adaption made.}
+	\twentyitem
+    	{Sep 2015 - \\May 2016}
+        {Co-Founder \& Full Stack Developer}
+        {\href{http://www.localxchange.ca/}{LocalXChange Inc.}}
+        {}
+        {
+        {\begin{itemize}
+        \item In a team of two, won \$8,000 in funding from The Hub incubator (CBaSE, University of Guelph) to kick start a startup venture
+        \item In a team of three, built a prototype hyperlocal content platform. The goal was to deliver hyperlocal news, events and other content from community organizations to local users
+        \item Built hybrid mobile and web apps using Node.js, Ionic, AngularJS and MongoDB. Performed automated testing using Selenium.
+        \item Met with city officials, including the Mayor, and university executives to marketing \& business strategies for the platform 
+    \end{itemize}}
+        }
+        
+    \twentyitem
+   		{Sept 2015 - \\ Present}
+        {Graduate Teaching Assistant}
+        {\href{http://www.uoguelph.ca}{University of Guelph}}
+        {}
+        {
+        {\begin{itemize}
+        \item TA for CIS*2430 (OOP), CIS*4150 (Software Reliability \& Testing) and CIS*3530 (Database Systems \& Concepts) courses
+    \end{itemize}}
+        }
+        
+     \twentyitem
+   		{Dec 2013 - \\ Apr 2015}
+        {Test Automation Engineer}
+        {\href{http://www.synechron.com/}{Synechron}}
+        {}
+        {
+        \begin{itemize}
+        \item Developed a \textit{Keyword Driven} and \textit{Behavior Driven} test automation framework for \href{https://www.microsoft.com/en-ca/dynamics/crm.aspx}{Microsoft Dynamics CRM}. Wrote an efficient recursive function to search within multi-level nested frames, reducing development time by several weeks. Won SPOT award {\includegraphics[scale=0.05]{img/trophy.png}}
+        
+        \textit{My work opened up a new position in the organization, enabling it to earn additional revenue}
+        \item Involved in development of a Coded UI test automation framework for \href{https://www.microsoft.com/en-ca/dynamics/erp-ax-overview.aspx}{Microsoft Dynamics AX} in C\#
+        \item Involved in manual testing for \href{http://www.fico.com/en/products/fico-blaze-advisor-decision-rules-management-system}{FICO Blaze Advisor}. Participated in standup meetings and Three Amigos sessions with onshore/offshore developers and BAs. Responsible for sending daily status reports and testing user stories. Used JIRA and Quality Center for defect reporting, and Quick Test Professional for executing automated test cases
+    \end{itemize}
+    	}
+        
 	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
 \end{twenty}
-
-%----------------------------------------------------------------------------------------
-%	 OTHER INFORMATION
-%----------------------------------------------------------------------------------------
-
-\section{other information}
-
-\subsection{Review}
-
-Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
-
-%----------------------------------------------------------------------------------------
-%	 SECOND PAGE EXAMPLE
-%----------------------------------------------------------------------------------------
-
-%\newpage % Start a new page
-
-%\makeprofile % Print the sidebar
-
-%\section{other information}
-
-%\subsection{Review}
-
-%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
-
-%\section{other information}
-
-%\subsection{Review}
-
-%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
-
-%----------------------------------------------------------------------------------------
 
 \end{document} 
