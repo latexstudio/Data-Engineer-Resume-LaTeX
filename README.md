@@ -12,7 +12,7 @@ This is the template I use for my own resume. I've compiled it with elements fro
 
 1. Install [MiKTeX](https://miktex.org/howto/install-miktex), a TeX distribution for Windows that includes a large number of major packages.
 
-2. Install an editor to edit and compile LaTeX documents. I recommend (TeXstudio)(http://www.texstudio.org/) or [Texmaker](http://www.xm1math.net/texmaker/).
+2. Install an editor to edit and compile LaTeX documents. I recommend [TeXstudio](http://www.texstudio.org/) or [Texmaker](http://www.xm1math.net/texmaker/).
 
 Once both the distribution and editor are installed, clone this repository using `git clone` and open the template.tex file in your editor. You're good to go!
 
